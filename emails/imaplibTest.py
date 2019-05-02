@@ -10,7 +10,8 @@ def cb(cb_arg_list):
               % (field[0].split()[0], field[1]))
 
 
-import getpass, imaplib2
+import imaplib2
+
 
 M = imaplib2.IMAP4()
 M.LOGIN(input("input login"), input("input pass"))

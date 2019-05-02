@@ -2,8 +2,6 @@ from phue import Bridge
 import imaplib
 import re
 import time
-import winsound
-import myInfo
 from myInfo import getHueIP
 from myInfo import getEmail
 from myInfo import getCode

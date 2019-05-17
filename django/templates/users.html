@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+</head>
+<body>
+
+<h1>Create an account</h1>
+
+
+<form action="/addUser/" method="post">{% csrf_token %}
+    <p>Username:</p>
+    <input type="text" name="username"/>
+    <p>Password:</p>
+    <input type="password" name="password"/>
+    <p>Email:</p>
+    <input type="text" name="email"/>
+    <input type="submit" value="Sign Up"/>
+</form>
+
+</body>
+</html>

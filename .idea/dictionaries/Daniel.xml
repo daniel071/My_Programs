@@ -2,7 +2,9 @@
   <dictionary name="Daniel">
     <words>
       <w>getkey</w>
+      <w>getmessage</w>
       <w>gitignore</w>
+      <w>logtest</w>
     </words>
   </dictionary>
 </component>

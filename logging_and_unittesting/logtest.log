@@ -1,0 +1,361 @@
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+WARNING:root: 2019-05-18; Daniel; Statement 'num must be int or float' raised
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Statement 'num must be int or float' raised
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Statement 'num must be int or float' raised
+INFO:root: 2019-05-18; Daniel; Unhandled exception occurred: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Statement 'num must be int or float' raised
+INFO:root: 2019-05-18; Daniel; Unhandled exception occurred: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Statement 'num must be int or float!' raised
+INFO:root: 2019-05-18; Daniel; Unhandled exception occurred: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Statement 'num must be int or float!' raised
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception occurred: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Statement 'num must be int or float!' raised
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception occurred: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.0 passed in; 4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -4.32 passed in; 4.32 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 9.32419 passed in; -9.32419 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello World! passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: local variable 'output' referenced before assignment
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 0.0 passed in; 0.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 0.0 passed in; 0.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 0.0 passed in; 0.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 0.0 passed in; 0.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; [12, 16, 12] passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; (12, 54, 90) passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; True passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; False passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; string passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; string passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; string passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; string passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; string passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+INFO:root: 2019-05-18; Daniel; reverse function called; string passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; string passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 0.0 passed in; 0.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: num must be int or float!
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 0.0 passed in; 0.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 0.0 passed in; 0.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello passed in
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: could not convert string to float: 'Hello'
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 0.0 passed in; 0.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised could not convert string to float: 'Hello'
+INFO:root: 2019-05-18; Daniel; reverse function called; [12, 16, 12] passed in
+CRITICAL:root: 2019-05-18; Daniel; Unhandled exception raised: float() argument must be a string or a number, not 'list'
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 0.0 passed in; 0.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised could not convert string to float: 'Hello'
+INFO:root: 2019-05-18; Daniel; reverse function called; [12, 16, 12] passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised float() argument must be a string or a number, not 'list'
+INFO:root: 2019-05-18; Daniel; reverse function called; (12, 54, 90) passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised float() argument must be a string or a number, not 'tuple'
+INFO:root: 2019-05-18; Daniel; reverse function called; True passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; hello passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised could not convert string to float: 'hello'
+INFO:root: 2019-05-18; Daniel; reverse function called; 4 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.0 passed in; -4.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 1 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 1.0 passed in; -1.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 4.354 passed in; -4.354 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 5325.57294 passed in; -5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; -5325.57294 passed in; 5325.57294 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; 0 passed in
+INFO:root: 2019-05-18; Daniel; reverse function called; 0.0 passed in; 0.0 returned
+INFO:root: 2019-05-18; Daniel; reverse function called; Hello passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+INFO:root: 2019-05-18; Daniel; reverse function called; [12, 16, 12] passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+INFO:root: 2019-05-18; Daniel; reverse function called; (12, 54, 90) passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+INFO:root: 2019-05-18; Daniel; reverse function called; True passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'
+INFO:root: 2019-05-18; Daniel; reverse function called; False passed in
+WARNING:root: 2019-05-18; Daniel; Handled exception raised 'TypeError: num must be int or float!'

@@ -137,11 +137,16 @@ def decrypt_function():
         decrypt_status_message.configure(text="Incorrect Key / Decryption failed")
     else:
         # Overwrite file
-        mainFile = open(root.fileName, "w")
-        mainFile.write(new_message)
+        try:
+            mainFile = open(root.fileName, "w")
+            mainFile.write(new_message)
+            mainFile.close()
+
+        except FileNotFoundError:
+            pass
+
         set_input(new_message)
 
-        mainFile.close()
 
         decrypt_status_message.configure(text="Decryption Successful!")
 

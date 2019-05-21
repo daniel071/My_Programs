@@ -14,4 +14,3 @@ while True:
 
     converted_contents = json.load(json_file)
     print(converted_contents)
-

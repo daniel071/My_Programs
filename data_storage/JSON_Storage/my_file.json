@@ -1,0 +1,9 @@
+{
+  "level": 12,
+  "name": "A Person",
+  "password_secure?": false,
+  "personal_info": {
+                      "password": "there's no password here lol",
+                      "email": "email=email.email@email.email/email.email"
+                   }
+}

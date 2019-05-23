@@ -147,7 +147,6 @@ def decrypt_function():
 
         set_input(new_message)
 
-
         decrypt_status_message.configure(text="Decryption Successful!")
 
 

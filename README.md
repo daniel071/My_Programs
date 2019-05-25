@@ -26,7 +26,7 @@ This project uses [pep8 styling](https://www.python.org/dev/peps/pep-0008/) so i
 that is the preferred method of style, making python code easier to read.
 
 ### Got any questions?
-If you have any queries please ask us in the issues tab and mark it with the label `question`
+If you have any queries please ask us in the issues tab and select the template labelled `Questions`
 
 <br></br>
 

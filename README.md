@@ -3,6 +3,9 @@
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+<br></br>
 
 ### Why I made this:
 * I created this so that I can store all my programs online, so if I lose my files, I can easily download them again and continue.

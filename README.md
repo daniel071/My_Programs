@@ -15,7 +15,7 @@
 ### How you can help:
  There are 3 easy steps to contributing to this project:
  1. Create a fork of this project
- 1. Make modifications to the work
+ 1. Make modifications to the fork
  1. Open a pull request in this repository, with your new fork selected
  
 <br></br>

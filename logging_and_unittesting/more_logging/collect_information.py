@@ -4,7 +4,7 @@ import psutil
 from datetime import datetime
 import time
 from tkinter import *
-import random
+
 
 logging.basicConfig(filename='system_info.log', level=logging.DEBUG)
 

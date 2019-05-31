@@ -100,6 +100,21 @@ def decimal_pushed():
     write_to_boxes(binary, decimal, hexadecimal)
 
 
+def hexadecimal_pushed():
+    global binaryMessage
+    global decimalMessage
+    global hexadecimalMessage
+
+    hexadecimal = hexadecimalMessage.get("1.0", "end-1c")
+    decimal = base_to_dec(hexadecimal, 10)
+    print(decimal)
+    binary = dec_to_base(decimal, 2)
+    print(binary)
+
+    clear()
+    write_to_boxes(binary, decimal, hexadecimal)
+
+
 root = Tk()
 root.title("Number System Converter")
 root.geometry('1280x720')
@@ -126,7 +141,7 @@ hexadecimalLabel = Label(text="Hexadecimal", font=("Roboto", 18))
 hexadecimalLabel.grid(row=1, column=2)
 hexadecimalMessage = Text(root, width=40, height=10)
 hexadecimalMessage.grid(row=2, column=2)
-hexadecimalButton = Button(text="Convert!", font=("Roboto", 14))
+hexadecimalButton = Button(text="Convert!", font=("Roboto", 14), command=hexadecimal_pushed)
 hexadecimalButton.grid(row=3, column=2)
 
 root.mainloop()

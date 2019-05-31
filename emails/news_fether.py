@@ -20,8 +20,8 @@ c = conn.cursor()
 
 create_table()
 imap_host = 'imap.gmail.com'
-imap_user = get_email()
-imap_pass = get_password()
+imap_user = get_email()  # You can add your own email here
+imap_pass = get_password()  # You can add your password to the email here
 
 # connect to host using SSL
 imap = imaplib.IMAP4_SSL(imap_host)
@@ -29,7 +29,7 @@ imap = imaplib.IMAP4_SSL(imap_host)
 # login to server
 imap.login(imap_user, imap_pass)
 
-imap.select('hoppers_news', readonly=True)
+imap.select('hoppers_news', readonly=True)  # Select Label such as 'Inbox'
 
 tmp, data = imap.search(None, 'ALL')
 c.execute("DELETE FROM news;")

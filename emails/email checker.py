@@ -37,6 +37,7 @@ def alertLamp():
     b.set_light(2, "hue", oldHue, transitiontime=2)
     time.sleep(2)
 
+
 checkIntevaral = 2
 
 
@@ -47,13 +48,13 @@ if rc == 'OK':
     rc, message = Mailbox.status('INBOX', "(UNSEEN)")
     unreadCount = int(re.search("UNSEEN (\d+)", str(message[0])).group(1))
     oldValue = 0
-    file = open("D:/Git/Darrot-OS/My_python_programs/emails/tmp/mailnotify.tmp", "w+")
+    file = open("D:/Programming/My_python_programs/emails/tmp/mailnotify.tmp", "w+")
     file.write(str(unreadCount))
     file.close()
     while 1:
         rc, message = Mailbox.status('INBOX', "(UNSEEN)")
         unreadCount = int(re.search("UNSEEN (\d+)", str(message[0])).group(1))
-        file = open("D:/Git/Darrot-OS/My_python_programs/emails/tmp/mailnotify.tmp", "r+")
+        file = open("D:/Programming/My_python_programs/emails/tmp/mailnotify.tmp", "r+")
         oldValue = int(file.readline())
         file.close()
         if unreadCount > oldValue:
@@ -63,7 +64,7 @@ if rc == 'OK':
 
 
         if oldValue != unreadCount:
-            file = open("D:/Git/Darrot-OS/My_python_programs/emails/tmp/mailnotify.tmp", "w+")
+            file = open("D:/Programming/My_python_programs/emails/tmp/mailnotify.tmp", "w+")
             file.write(str(unreadCount))
             file.close()
         time.sleep(checkIntevaral)

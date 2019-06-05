@@ -16,9 +16,9 @@ def notify(title, message):
         time.sleep(0.1)
 
 
-async def main():
-    print("0")
-    notify("Hoi", "lol")
-    print("1")
-    notify("Hoi", "lol")
-    print("2")
+
+print("0")
+notify("Hoi", "lol")
+print("1")
+notify("Hoi", "lol")
+print("2")

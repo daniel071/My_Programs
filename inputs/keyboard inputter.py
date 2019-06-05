@@ -2,7 +2,6 @@ from pynput.keyboard import Key, Controller
 from myInfo import getSQLPass
 import time
 
-
 time.sleep(2)
 
 keyboard = Controller()

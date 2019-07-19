@@ -3,6 +3,7 @@
 
 # TODO: Use rethinkdb to make an online database for this.
 # TODO: Fix up broad try and excepts
+# TODO: Add update password system - Add email verification when changing password - with code
 
 import time
 from random import *
@@ -282,6 +283,7 @@ while n == 1:
                                                   "Use /login to login to an existing account\n"
                                                   "Use /signout to signout of an existing account\n"
                                                   "Use /username to view your account name"
+                                                  "Use /save to save you balance! (Not required as it does auto-save"
                                                   "Use /changepass to change your password (Work in progress)"
                                                   "Use /exit to exit this menu and return to the game\n")
 
@@ -351,6 +353,11 @@ while n == 1:
                                             if ussr_input == "n":
                                                 # User will say no and then get deleted MUHAHAHAHAHAHAHAHAHA
                                                 # I'm nice ;) -- This is probably not a good idea...
+                                                # I will change this later, only for testing
+
+
+
+
                                                 if not loggedInUser == "0":
                                                     print("Deleting account '{accountname}' in "
                                                           "progress...".format(accountname=loggedInUser))
@@ -369,6 +376,9 @@ while n == 1:
                                             print("Saving in progress...")
                                             save_points()
                                             print("Save successful!")
+                                        elif ussr_input == "/changepass":
+                                            # Work in progress
+                                            pass
                                         else:
                                             print("Command not recognised, you can use /help")
                                 else:

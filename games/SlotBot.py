@@ -1,5 +1,9 @@
 # By Daniel Pavela 2018
 # All source code is free as long as you credit me
+
+# TODO: Use rethinkdb to make an online database for this.
+# TODO: Fix up broad try and excepts
+
 import time
 from random import *
 import sqlite3
@@ -29,11 +33,13 @@ def verify_password(stored_password, provided_password):
     pwdhash = binascii.hexlify(pwdhash).decode('ascii')
     return pwdhash == stored_password
 
+
 conn = sqlite3.connect('slotbot_users.db')
 c = conn.cursor()
 
 c.execute('CREATE TABLE IF NOT EXISTS accounts(user TEXT, password TEXT, points INT)')
 conn.commit()
+
 
 def save_points():
     global balance
@@ -55,13 +61,16 @@ def load_points():
             if row[0] == loggedInUser:
                 new_balance = row[2]
                 # print("Account '{accountname} is same as logged in. "
-                #       "Balance of this account is '{accountbalance}' \n".format(accountname=row[0], accountbalance=row[2]))
+                #       "Balance of this account is '{accountbalance}' \n".format(accountname=row[0],
+                #       accountbalance=row[2]))
             else:
                 pass
                 # print("Account '{accountname} is not same as logged in. "
-                #       "Balance of this account is '{accountbalance}'".format(accountname=row[0], accountbalance=row[2]))
+                #       "Balance of this account is '{accountbalance}'".format(accountname=row[0],
+                #       accountbalance=row[2]))
         print("NEW BALANCE:", new_balance)
         balance = new_balance
+
 
 def log_out():
     global loggedInUser
@@ -113,7 +122,7 @@ while first_loop:
                 print("No user '", userCheck, "' was found")
 
     elif ussr_input == "n":
-        print("Continuing as guest, if you would like to create an account, use '/myaccout'")
+        print("Continuing as guest, if you would like to create an account, use '/myaccount'")
         time.sleep(1)
         first_loop = 0
     else:
@@ -191,14 +200,15 @@ while n == 1:
                     while n2 == 1:
                         try:
                             inputAnswer = int(input("Pick a number from 1 to 6 "))
-                            if inputAnswer > 0 and inputAnswer < 7:
+                            if 0 > inputAnswer < 7:
                                 moneyBet = int(input("How much money do you bet? "))
                                 if balance < moneyBet:
                                     print("You need $", moneyBet - balance, "more to bet that amount")
                                 else:
                                     diceNumber = randint(1, 6)
                                     if inputAnswer == diceNumber:
-                                        print("The dice rolled a", diceNumber, "and you chose", inputAnswer,",Congratulations!")
+                                        print("The dice rolled a", diceNumber, "and you chose",
+                                              inputAnswer, ",Congratulations!")
                                         time.sleep(1)
                                         balance = balance + moneyBet
                                         save_points()
@@ -206,7 +216,8 @@ while n == 1:
                                         n2 = 0
 
                                     else:
-                                        print("The dice rolled a", diceNumber, "and you chose", inputAnswer,"Sorry, maybe next time")
+                                        print("The dice rolled a", diceNumber, "and you chose",
+                                              inputAnswer, "Sorry, maybe next time")
                                         balance = balance - moneyBet / 6
                                         save_points()
                                         print("Your balance is now", balance)
@@ -221,29 +232,33 @@ while n == 1:
                         n = 0
                     else:
                         if commandInput == "/luckyNumber":
-                            inputAnswer = int(input("Pick a number from 1 to 100"))
+                            inputAnswer = int(input("Pick a number from 1 to 100 "))
                             print("$10 of your balance will be taken but if you get the lucky number,")
                             print("you will get $1500 back")
-                            userAnswer = input("Are you sure you want to do this? [y / n]")
+                            userAnswer = input("Are you sure you want to do this? [y / n]\n".lower())
                             if userAnswer == "y":
                                 if balance < 11:
-                                    print("Sorry, but you need", 10 - balance,"more dollars to make this purchase!")
+                                    print("Sorry, but you need", 10 - balance, "more dollars to make this purchase!")
                                 else:
                                     balance = balance - 10
                                     save_points()
                                     save_points()
-                                    if inputAnswer > 0 and inputAnswer < 101:
+                                    if 0 > inputAnswer < 101:
                                         luckyNumber = randint(1, 100)
                                         if luckyNumber == userAnswer:
                                             balance = balance + 1500
                                             save_points()
-                                            print("The lucky number was", luckyNumber, "and your number was",inputAnswer, "Congratulations!")
+                                            print("The lucky number was", luckyNumber,
+                                                  "and your number was", inputAnswer, "Congratulations!")
                                             time.sleep(1)
-                                            print("Congratulations! You picked the lucky number, your balance is now", balance)
+                                            print("Congratulations! You picked the lucky number, your balance is now",
+                                                  balance)
                                         else:
-                                            print("The lucky number was", luckyNumber,"and your number was", inputAnswer, "sorry!")
+                                            print("The lucky number was", luckyNumber, "and your number was",
+                                                  inputAnswer, "sorry!")
                                             time.sleep(1)
-                                            print("Sorry, you didn't pick the lucky number, your balance is now", balance)
+                                            print("Sorry, you didn't pick the lucky number, your balance is now",
+                                                  balance)
                             else:
                                 if userAnswer == "n":
                                     print("Sure!")
@@ -262,7 +277,13 @@ while n == 1:
                                         print("Please input an user config command")
                                         ussr_input = input("").lower()
                                         if ussr_input == "/help":
-                                            print("work in progress")
+                                            print("Use /help to get this message\n"
+                                                  "Use /signup to create a new account\n"
+                                                  "Use /login to login to an existing account\n"
+                                                  "Use /signout to signout of an existing account\n"
+                                                  "Use /username to view your account name"
+                                                  "Use /changepass to change your password (Work in progress)"
+                                                  "Use /exit to exit this menu and return to the game\n")
 
                                         elif ussr_input == "/signup":
                                             addAccountLoop = 1
@@ -271,10 +292,12 @@ while n == 1:
                                                 password = input("Specify account password ")
                                                 hashedPass = hash_password(password)
                                                 addAccountLoop = 0
-                                                c.execute("INSERT INTO accounts (user, password, points) VALUES (?, ?, ?)",
+                                                c.execute("INSERT INTO accounts (user, password, points) "
+                                                          "VALUES (?, ?, ?)",
                                                           (user, hashedPass, balance))
                                                 conn.commit()
-                                                print("Use added successfully! To log in to your new account, use /login")
+                                                print("Use added successfully! "
+                                                      "To log in to your new account, use /login")
 
                                         elif ussr_input == "/login":
                                             permissionLoop = 1
@@ -342,6 +365,10 @@ while n == 1:
                                                 print("Returning to config page")
                                             else:
                                                 print("Please use either (y/n)! Returning to config page.")
+                                        elif ussr_input == "/save":
+                                            print("Saving in progress...")
+                                            save_points()
+                                            print("Save successful!")
                                         else:
                                             print("Command not recognised, you can use /help")
                                 else:

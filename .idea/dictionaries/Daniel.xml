@@ -1,7 +1,9 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Daniel">
     <words>
+      <w>accountname</w>
       <w>ceniken</w>
+      <w>dictinvert</w>
       <w>filemenu</w>
       <w>getkey</w>
       <w>getmessage</w>
@@ -13,6 +15,7 @@
       <w>pavela</w>
       <w>savefile</w>
       <w>securitymenu</w>
+      <w>signout</w>
     </words>
   </dictionary>
 </component>
